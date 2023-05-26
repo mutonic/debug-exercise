@@ -34,8 +34,8 @@
      if (todo) {
        todos.push(todo);
        todoInput.value = "";
+       displayTodos();
       }
-      displayTodos();
    }
 
    // Function to remove a to-do item
